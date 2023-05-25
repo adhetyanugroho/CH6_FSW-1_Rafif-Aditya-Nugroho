@@ -63,6 +63,9 @@ export default function Search() {
       const filterResult = cars.filter((i) => i.capacity
       >= capacity && formatDate(i.availableAt) >= epochTime);
       dispatch(updatedFilteredCars(filterResult));
+      setShowAlert(true);
+      setAlertMessage('Success');
+      setAlertVariant('success');
     } else {
       setShowAlert(true);
       setAlertMessage('Please fill in all the data!');
