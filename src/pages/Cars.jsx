@@ -1,18 +1,16 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
-import Form from '../components/Form';
-import Result from '../components/Result';
+import Search from '../components/Search';
 import Footer from '../components/Footer';
-import '../assets/css/sewa.css';
+import '../assets/css/Cars.css';
 
-export default function Search() {
+export default function Cars() {
   return (
     <>
       <Navbar />
       <Hero />
-      <Form />
-      <Result />
+      <Search />
       <Footer />
     </>
   );

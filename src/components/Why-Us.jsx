@@ -12,15 +12,15 @@ export default function Why() {
         <p className="content-why">Mengapa harus pilih Binar Car Rental?</p>
         <div className="row">
           <div className="col-md-3 pt-2">
-            <div className="card">
+            <div className="card-1">
               <div className="card-body">
                 <img
                   src={iconComplete}
                   className="icon-why"
                   alt="icon_complete.png"
                 />
-                <h5 className="card-title">Mobil Lengkap</h5>
-                <p className="card-text">
+                <h5 className="home-title">Mobil Lengkap</h5>
+                <p className="home-text">
                   Tersedia banyak pilihan mobil, kondisi masih baru, bersih dan
                   terawat
                 </p>
@@ -29,15 +29,15 @@ export default function Why() {
           </div>
 
           <div className="col-md-3 pt-2">
-            <div className="card">
-              <div className="card-body">
+            <div className="card-1">
+              <div className="body-card">
                 <img
                   src={iconPrice}
                   className="icon-why"
                   alt="icon_price.png"
                 />
-                <h5 className="card-title">Harga Murah</h5>
-                <p className="card-text">
+                <h5 className="home-title">Harga Murah</h5>
+                <p className="home-text">
                   Harga murah dan bersaing, bisa bandingkan harga kami dengan
                   rental mobil lain
                 </p>
@@ -46,15 +46,15 @@ export default function Why() {
           </div>
 
           <div className="col-md-3 pt-2">
-            <div className="card">
+            <div className="card-1">
               <div className="card-body">
                 <img
                   src={iconTime}
                   className="icon-why"
                   alt="icon_24hrs"
                 />
-                <h5 className="card-title">Layanan 24 Jam</h5>
-                <p className="card-text">
+                <h5 className="home-title">Layanan 24 Jam</h5>
+                <p className="home-text">
                   Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami juga
                   tersedia di akhir minggu
                 </p>
@@ -63,15 +63,15 @@ export default function Why() {
           </div>
 
           <div className="col-md-3 pt-2">
-            <div className="card">
+            <div className="card-1">
               <div className="card-body">
                 <img
                   src={iconProfessional}
                   className="icon-why"
                   alt="icon_professional.png"
                 />
-                <h5 className="card-title">Sopir Profesional</h5>
-                <p className="card-text">
+                <h5 className="home-title">Sopir Profesional</h5>
+                <p className="home-text">
                   Sopir yang profesional, berpengalaman, jujur, ramah dan selalu
                   tepat waktu
                 </p>

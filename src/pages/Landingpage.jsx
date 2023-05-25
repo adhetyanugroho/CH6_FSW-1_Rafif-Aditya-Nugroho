@@ -7,7 +7,6 @@ import Testimonial from '../components/Testimonial';
 import Sewa from '../components/Sewa';
 import FAQ from '../components/FAQ';
 import Footer from '../components/Footer';
-import '../assets/css/home.css';
 
 export default function Homepage() {
   return (
