@@ -7,8 +7,9 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-#Endpoint
+## Endpoint
 a. GET / akan membuka Landing Page
 http://localhost:3000/
+
 b. GET /cars akan membuka Cari Mobil
 http://localhost:3000/cars
